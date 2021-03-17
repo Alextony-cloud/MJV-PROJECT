@@ -1,11 +1,12 @@
-package exercicioMjv;
+package service;
 
 public class TransmissorEmail extends TransmissorMensagem {
 	
 	String titulo;
 
 	@Override
-	void enviar(String mensagem) {
+	public void enviar (String mensagem) {
+		
 		
 	}
 

@@ -1,9 +1,9 @@
-package exercicioMjv;
+package service;
 
 public class TransmissorSms extends TransmissorMensagem{
 
 	@Override
-	void enviar(String mensagem) {
+	public void enviar(String mensagem) {
 		
 	}
 
